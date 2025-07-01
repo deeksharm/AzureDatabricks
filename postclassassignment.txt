@@ -1,0 +1,26 @@
+write query for customer full name, phone, email, compony.
+Write query to show how many customer are in same compony .
+Write query to show how many customer are in same country ->[SalesLT].[Address],[SalesLT].[Customer]
+
+
+use below tables: = 
+[SalesLT].[Product]
+[SalesLT].[ProductCategory]
+[SalesLT].[ProductDescription]
+[SalesLT].[ProductModel]
+[SalesLT].[ProductModelProductDescription]
+[SalesLT].[SalesOrderDetail]
+[SalesLT].[SalesOrderHeader]
+
+SQL:
+write query for customer full name address, phone, email, compony.
+Write query to show how many customer are in same compony 
+Write query to show how many customer are in same country 
+
+
+28/08/2023
+SELECT *   FROM [SalesLT].[SalesOrderHeader]
+select * from [SalesLT].[SalesOrderDetail]
+select * from [SalesLT].[Product]
+
+write a sql query as per product id & product name to identify diffrence between Due date & ship date

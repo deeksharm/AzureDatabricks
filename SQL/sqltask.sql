@@ -1,4 +1,4 @@
-server :  23rd june  - 27th june 2025 & 30th June 2025
+server : sqlserver2025t.database.windows.net
 db : sqldbtredence 
 user Adminlogin
 Password: Welcome@123

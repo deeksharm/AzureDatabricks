@@ -1,0 +1,23 @@
+ 1. Install MongoDB Kafka Connector
+(A) Download manually from Confluent Hub:
+https://www.confluent.io/hub/mongodb/kafka-connect-mongodb
+Choose ZIP, extract it to:
+C:\kafka\plugins\mongodb-kafka-connect
+(B) Update plugin path:
+Edit file C:\kafka\config\connect-standalone.properties
+Add this line at the bottom:
+plugin.path=C:\\kafka\\plugins
+________________________________________
+2. Create MongoDB Source Connector Config
+Create a file at:
+C:\kafka\config\mongodb-source.properties
+Paste this content:
+name=mongodb-source-connector
+connector.class=com.mongodb.kafka.connect.MongoSourceConnector
+tasks.max=1
+connection.uri=mongodb://localhost:27017
+database=testdb
+collection=testcollection
+topic.prefix=mongo.
+output.format=json
+change.stream.full.document=updateLookup

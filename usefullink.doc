@@ -14,3 +14,132 @@ https://www.databricks.com/learn/certification/data-engineer-associate
 
 Spark:
 https://data-flair.training/blogs/spark-tutorial/
+
+
+------------------------------------------
+
+Useful Links:  
+ 
+Redeem Voucher:
+
+•	Pass enable: 
+ https://www.microsoftazurepass.com/. 
+
+•	Redemption Process Guide - Microsoft Azure Pass
+Redemption Process Guide - Microsoft Azure Pass
+
+Azure:-  
+•	Azure Portal : 
+
+https://portal.azure.com/ 
+
+•	Setup Microsoft Azure Pass Promo Code account: 
+
+www.microsoftazurepass.com 
+
+•	Guide to Redeeming a Microsoft Azure Pass Promo Code: 
+
+https://www.microsoftazurepass.com/Home/HowTo?Length=5 
+
+•	Azure Free account with credit card details: 
+
+ https://azure.microsoft.com/en-in/free/ 
+
+•	Guide to Azure Free account with credit card details: 
+
+https://docs.microsoft.com/en-us/learn/modules/create-an-azure-account/3-exercise-create-an-azure-account  
+ 
+
+Azure Storage Account:-  
+
+•	Create ADLS gen 2 using portal 
+
+       https://docs.microsoft.com/en-us/azure/storage/blobs/create-data-lake-storage-account 
+
+•	Azure Storage redundancy 
+
+https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy 
+
+•	Azure Paired Regions 
+
+https://docs.microsoft.com/en-us/azure/best-practices-availability-paired-regions 
+
+•	Azure Storage services 
+
+https://docs.microsoft.com/en-us/azure/storage/common/storage-introduction 
+
+•	Manage Storage using PowerShell 
+
+https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-directory-file-acl-powershell 
+
+•	Create Storage using PowerShell  
+ 
+https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-powershell 
+ 
+Azure SQL:- 
+
+•	Create Azure SQL (Singletone): 
+
+https://docs.microsoft.com/en-us/azure/azure-sql/database/single-database-create-quickstart?tabs=azure-portal
+ 
+•	Create Elastic SQL: 
+
+https://docs.microsoft.com/en-us/azure/azure-sql/database/elastic-pool-overview#creating-a-new-sql-database-elastic-pool-using-the-azure-portal 
+
+•	Create SQL Managed instance: 
+
+https://docs.microsoft.com/en-us/azure/azure-sql/managed-instance/instance-create-quickstart 
+
+•	Create SQL on VM: 
+
+https://docs.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-vm-create-portal-quickstart 
+ 
+•	Vcore model
+https://docs.microsoft.com/en-us/azure/azure-sql/database/service-tiers-vcore?view=azuresql
+
+•	DTU model
+https://docs.microsoft.com/en-us/azure/azure-sql/database/service-tiers-dtu?view=azuresql
+
+Azure Synapse Analytics:-  
+ 
+•	Synapse architecture: 
+
+https://docs.microsoft.com/en-us/azure/synapse-analytics/sql/overview-architecture 
+
+•	Compute node distribution in synapse 
+
+https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-manage-compute-overview 
+
+•	Load data into dedicated pool: 
+
+https://docs.microsoft.com/en-us/azure/synapse-analytics/sql/best-practices-dedicated-sql-pool 
+
+•	Indexing in Synapse dedicated pool: 
+
+https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-tables-index 
+https://docs.microsoft.com/en-us/sql/relational-databases/indexes/clustered-and-nonclustered-indexes-described?toc=%2Fazure%2Fsynapse-analytics%2Fsql-data-warehouse%2Ftoc.json&bc=%2Fazure%2Fsynapse-analytics%2Fsql-data-warehouse%2Fbreadcrumb%2Ftoc.json&view=sql-server-ver15&preserve-view=true&viewFallbackFrom=azure-sqldw-latest 
+
+
+•	Distribution in Synapse dedicated pool: 
+
+https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-tables-distribute 
+
+•	Materialized view in Synapse dedicated pool: 
+
+https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/performance-tuning-materialized-views 
+
+•	Partitioning in Synapse dedicated pool: 
+
+https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-tables-partition 
+
+
+scd
+https://docs.microsoft.com/en-us/learn/modules/populate-slowly-changing-dimensions-azure-synapse-analytics-pipelines/
+
+ADB DEMO
+ADB Function:
+https://github.com/MicrosoftLearning/DP-203-Data-Engineer/raw/master/Allfiles/microsoft-learning-paths-databricks-notebooks/data-engineering/DBC/04-Working-With-Dataframes.dbc
+
+ADB Advanced:
+https://github.com/MicrosoftLearning/DP-203-Data-Engineer/raw/master/Allfiles/microsoft-learning-paths-databricks-notebooks/data-engineering/DBC/07-Dataframe-Advanced-Methods.dbc
+

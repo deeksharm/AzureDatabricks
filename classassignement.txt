@@ -1,0 +1,11 @@
+----------Databricks assignemnt-----------------
+1. Read the product.csv file into a Spark DataFrame
+2. Display the schema of the DataFrame
+3. Under name column keep only name remove size & color
+4. Remove columns ThumbNailPhoto, ThumbnailPhotoFileName
+5. Rename column rowguid to uid
+6. Add a new column insertdate with current_timestamp
+7. under size column cast into int & Replace Product size s-> 30, M-> 32, L-> 34, XL-> 36, XXL-> 38 to display availble product group by size.
+8. Remove duplicate rows
+9. Group by color & find max, min, sum of listprice
+10. load into new dataframe

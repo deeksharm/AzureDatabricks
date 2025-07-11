@@ -32,3 +32,4 @@ write a sql query as per product id & product name to identify diffrence between
 8. validate data in specified location 
 9. Create another table on same ext location with same schema
 10. validate data
+11. read item.csv table & keet date column consistant.

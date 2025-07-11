@@ -18,3 +18,17 @@ select * from [SalesLT].[Product]
 write a sql query as per product id & product name to identify diffrence between Due date & ship date
 1.Write SQL query to display top 10 sold product with product name, productid, quantitiy
 2. Replace Product size s-> 30, M-> 32, L-> 34, XL-> 36, XXL-> 38 to display availble product group by size.
+
+----------------------------------Databricks--------------------------------------
+11/07/2025
+
+1. read customersource.csv file from adls
+2. add fullname col & add firstname+middlename+lastname
+3 add incremental customerkey column
+4. convert gender M -> Male & F-> Female
+5. remove '-' from phone no.
+6. load into managed table & ext table
+7. drop both  managed table & ext table
+8. validate data in specified location 
+9. Create another table on same ext location with same schema
+10. validate data

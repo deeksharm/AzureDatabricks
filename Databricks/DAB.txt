@@ -1,0 +1,63 @@
+-->  install python
+-->  pip install
+-->  install databricks cli
+  winget search databricks
+  winget install Databricks.DatabricksCLI
+--> auth with databricks-cli
+databricks configure
+--> provide url & PAT
+
+
+*******************************************************************
+1)install databricks cli,uv  
+-winget install Databricks.DatabricksCLI OR  choco install databricks-cli 
+python -m pip install pipx
+python -m pipx ensurepath
+
+pipx install uv --force
+ pip install-uv
+databricks --version
+  
+
+****************************************************************
+ 
+2)connect workspace using cli 
+databricks auth login --host https://adb-3132598151623810.10.azuredatabricks.net
+ 
+$ databricks auth login --host https://adb-3132598151623810.10.azuredatabricks.net --
+ 
+profile DEFAULT
+Profile DEFAULT was successfully saved
+ 
+*******************************************************************
+3)Step 2: Create a new bundle project with a simple notebook
+ 
+mkdir,cd
+ 
+******************************************************************
+4)databricks bundle init default-python
+check using ls gives you different files
+        1)  Readme.md-- info about your project 
+        2)  databricks.yml-- main configuration file for your bundle
+        3) resources--YAML that defines cluster tasks notebook
+        4)src-- your actual code
+        5)fixtures-- helper config(optional)
+ 
+        6)tests-- pyhton unit test
+ 
+         7)scrtch-- temp file- not part of deployment
+ 
+         8)pyproject.toml-- standerd pyhton project configuration
+ 
+**********************************************************************
+ 
+5)validate
+databricks bundle validate --profile DEFAULT
+ 
+***********************************************************************
+6)Deploy the local project to the remote workspace
+ 
+databricks bundle deploy -t dev  --profile  DEFAULT
+ 
+ 
+*****************************************************************************
